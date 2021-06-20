@@ -1,0 +1,41 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+/* Ниже - подключение файла отвечающего за общий формат всей страницы */
+@import url(../blocks/page/page.css);
+/* Ниже - подключение файлов блока HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+/* Ниже - подключение файлов блока PROFILE */
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__block/profile__block.css);
+@import url(../blocks/profile/__avatar-image/profile__avatar-image.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__box/profile__box.css);
+@import url(../blocks/profile/__name/profile__name.css);
+@import url(../blocks/profile/__edit-button/profile__edit-button.css);
+@import url(../blocks/profile/__job/profile__job.css);
+@import url(../blocks/profile/__edd-button/profile__edd-button.css);
+/* Ниже - подключение файлов блокаов ELTMENTS и ELTMENT */
+@import url(../blocks/elements/elements.css);
+@import url(../blocks/element/element.css);
+@import url(../blocks/element/__image/element__image.css);
+@import url(../blocks/element/__place/element__place.css);
+@import url(../blocks/element/__place-title/element__place-title.css);
+@import url(../blocks/element/__place-button/element__place-button.css);
+/* Ниже - подключение файлов блока FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+/* Ниже - подключение файлов блока POPUP */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/popup__container/__container.css);
+@import url(../blocks/popup/popup__content/__content.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__name/popup__name.css);
+@import url(../blocks/popup/__job/popup__job.css);
+@import url(../blocks/popup/__close/popup__close.css);
+/* Ниже - подключение файла в блоке POPUP делающего его видимым при клике на кнопку - в html разметке его нет... */
+@import url(../blocks/popup/_opened/popup_opened.css);
+/* Ниже - подключение файлов блока FORM внутри блока POPUP */
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__submit/form__submit.css);

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Место</title>
+    <link rel="stylesheet" href="./pages/index.css">
+  </head>
+  <body class="page">
+    <header class="header"> 
+      <img class="header__logo" src="./images/Logo-Vitebsk-svg.svg" alt="Логотип">
+    </header>
+    <main class="content"> 
+      <section class="profile">
+        <div class="profile__block">
+          <img class="profile__avatar-image" src="./images/photo_2021-06-11_01-26-51.jpg" alt="Аватарка">
+          <div class="profile__info">
+            <div class="profile__box">
+              <h1 class="profile__name">Ю.Трощенко</h1>
+              <button class="profile__edit-button" type="button"></button>
+            </div>
+            <p class="profile__job">Вечный студент</p>
+          </div>  
+        </div>
+        <button class="profile__edd-button"></button>  
+      </section>
+      <section class="elements">
+        <div class="element">
+          <img class="element__image" src="./images/Витебск.JPG" alt="Фото1">
+          <div class="element__place">
+            <h2 class="element__place-title">Успенский собор</h2>
+            <button class="element__place-button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./images/Витебск 2.JPG" alt="Фото2">
+          <div class="element__place">
+            <h2 class="element__place-title">р.Западная Двина</h2>
+            <button class="element__place-button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./images/Дом-музей Марка Шагала.JPG" alt="Фото3">
+          <div class="element__place">
+            <h2 class="element__place-title">Дом-музей Марка Шагал</h2>
+            <button class="element__place-button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./images/Витебск 4.JPG" alt="Фото4">
+          <div class="element__place">
+            <h2 class="element__place-title">ул.Суворова</h2>
+            <button class="element__place-button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./images/Витебск 5.JPG" alt="Фото5">
+          <div class="element__place">
+            <h2 class="element__place-title">площадь Победы</h2>
+            <button class="element__place-button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img class="element__image" src="./images/Костёл Святой Варвары.JPG" alt="Фото6">
+          <div class="element__place">
+            <h2 class="element__place-title">Костёл Святой Варвары</h2>
+            <button class="element__place-button"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2021 Mesto Vitebsk</p>
+    </footer>
+    <section class="popup"> <!-- тут начинается popup для редактирования данных профиля-->
+      <div class="popup__container">
+        <button class="popup__close" type="button"></button>
+        <h2 class="popup__title">Редактировать профиль</h2> 
+        <form class="form" name="input-form"> 
+          <input class="form__input form__input_name" type="text" name="name" id="name" placeholder="Имя"> 
+          <input class="form__input form__input_job" type="text" name="job" id="job" placeholder="Сфера деятельности"> 
+          <button class="form__submit" type="submit">Сохранить</button> 
+        </form> 
+      </div>
+    </section>
+    <script src="./scripts/index.js"></script> <!-- подключаем JS докомент - всегда перед закрывающим тегом  </body> -->
+  </body>
+</html>

@@ -1,0 +1,26 @@
+.popup__close {
+  background: transparent center url(../../../images/CloseIcon-pupap.svg);
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: -40px;
+	right: -40px;
+	border:none;
+	outline: none;
+}
+
+.popup__close:hover {
+	cursor: pointer;
+  	opacity: 0.5;
+}
+
+@media (max-width: 560px) {
+.popup__close {
+	background: url(../../../images/CloseIcon-pupap-300.svg);
+	width: 26px;
+	height: 26px;
+	right: 0;
+	background-repeat: no-repeat;
+	}
+}

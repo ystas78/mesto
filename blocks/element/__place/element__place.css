@@ -1,0 +1,10 @@
+.element__place {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+}
