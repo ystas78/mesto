@@ -3,7 +3,7 @@
 	width: 24px;
 	height: 24px;
 	align-self: center;
-	margin-left: 18px;
+	margin-left: 13px;
 	border: none;
 	outline: none;
 	background-repeat: no-repeat;
@@ -19,6 +19,7 @@
 	background: url(../../../images/EditButton-320.svg);
 	width: 18px;
 	height: 18px;
-	margin-left: 10px;
+	margin-left: 0;
+	margin-right: -36px;
   }
 }

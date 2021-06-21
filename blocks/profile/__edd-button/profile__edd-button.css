@@ -18,7 +18,7 @@
 
 @media (max-width: 560px) {
   .profile__edd-button {
-    margin-top: 36px;
+    margin-top: 32px;
     background: transparent url("../../../images/AddButton-320.svg");
     background-position: center;
     width: 282px;

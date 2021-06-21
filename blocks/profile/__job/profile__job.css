@@ -6,7 +6,7 @@
   font-size: 18px;
   line-height: 22px;
   text-align: left;
-  margin-top: 16px;
+  margin-top: 9px;
   white-space: nowrap; /* Запрещаем перенос строк */
   overflow: hidden; /* Обрезаем все, что не помещается в область */
   text-overflow: ellipsis; /* Добавляем многоточие */
@@ -22,6 +22,6 @@
 @media screen and (max-width: 560px) {
   .profile__job {
     text-align: center;
-    margin-top: 14px;
+    margin-top: 8px;
   }
 }

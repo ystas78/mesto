@@ -20,7 +20,8 @@
 	background: url(../../../images/CloseIcon-pupap-300.svg);
 	width: 26px;
 	height: 26px;
-	right: 0;
+	top: -43px;
+	right: 2px;
 	background-repeat: no-repeat;
 	}
 }
