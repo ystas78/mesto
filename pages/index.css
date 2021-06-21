@@ -27,11 +27,8 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 /* Ниже - подключение файлов блока POPUP */
 @import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/popup__container/__container.css);
-@import url(../blocks/popup/popup__content/__content.css);
+@import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__title/popup__title.css);
-@import url(../blocks/popup/__name/popup__name.css);
-@import url(../blocks/popup/__job/popup__job.css);
 @import url(../blocks/popup/__close/popup__close.css);
 /* Ниже - подключение файла в блоке POPUP делающего его видимым при клике на кнопку - в html разметке его нет... */
 @import url(../blocks/popup/_opened/popup_opened.css);

@@ -33,6 +33,7 @@ const addTextProfile = function(evt) {
   evt.preventDefault()
   profileName.textContent = popupElementNameInput.value
   profileJob.textContent = popupElementJobInput.value
+  popupClose()
 }
 
 popupOpenElement.addEventListener('click', popupOpen)
