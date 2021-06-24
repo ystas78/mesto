@@ -18,3 +18,9 @@
     max-width: 189px;
   }
 }
+
+@media (max-width: 560px){
+  .profile__name {
+    margin: 0 0 0 36px;
+  }
+}

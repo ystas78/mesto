@@ -3,7 +3,8 @@
   gap:20px 17px;
   grid-template-columns: repeat(3, 1fr);
   max-width: 880px;
-  margin: 0 auto 70px;
+  margin: 0 auto 66px;
+  padding: 0;
 }
 
 @media screen and (max-width: 905px) {
@@ -21,6 +22,6 @@
 
 @media screen and (max-width: 650px) {
   .elements {
-    margin: 0 auto 55px;
+    margin: 0 auto 46px;
   }
 }

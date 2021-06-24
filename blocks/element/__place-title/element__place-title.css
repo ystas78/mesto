@@ -5,9 +5,17 @@
   line-height: 29px;
   color: #000000;
   background-color: white;
-  margin-left: 20px;
   white-space: nowrap; /* Запрещаем перенос строк */
   overflow: hidden; /* Обрезаем все, что не помещается в область */
   text-overflow: ellipsis; /* Добавляем многоточие */
   width: 218px;
+  margin: 25px 0 27px 20px;
+  padding: 0;
+  border: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .element__place-title {
+    margin: 25px 0 26px 20px;
+  }
 }

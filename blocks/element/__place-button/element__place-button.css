@@ -1,15 +1,15 @@
 .element__place-button {
-    background: url(../../../images/Vector-svg.svg);
-    width: 22px;
-    height: 19px;
-    align-self: center;
-    border: none;
-    outline: none;
-    object-fit: cover;
-    margin-right: 20px;
+  background: url(../../../images/element__place-button.svg);
+  width: 22px;
+  height: 19px;
+  align-self: center;
+  border: none;
+  outline: none;
+  object-fit: cover;
+  margin-right: 20px;
 }
 
 .element__place-button:hover {
-	opacity: 0.5;
-    cursor: pointer;
+  opacity: 0.6;
+  cursor: pointer;
 }

@@ -2,6 +2,6 @@
   display: flex;
   flex-direction: column;
   width: 282px;
-  height: 360px;
   margin: 0;
+  padding: 0;
 }

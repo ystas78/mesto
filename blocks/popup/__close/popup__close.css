@@ -1,27 +1,27 @@
 .popup__close {
-  background: transparent center url(../../../images/CloseIcon-pupap.svg);
-	background-repeat: no-repeat;
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	top: -40px;
-	right: -40px;
-	border:none;
-	outline: none;
+  background: transparent center url(../../../images/close-Icon-pupap-1280.svg);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  border:none;
+  outline: none;
 }
 
 .popup__close:hover {
-	cursor: pointer;
-  	opacity: 0.5;
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 @media (max-width: 560px) {
-.popup__close {
-	background: url(../../../images/CloseIcon-pupap-300.svg);
-	width: 26px;
-	height: 26px;
-	top: -43px;
-	right: 2px;
-	background-repeat: no-repeat;
-	}
+  .popup__close {
+    background: url(../../../images/close-Icon-pupap-320.svg);
+    width: 26px;
+    height: 26px;
+    top: -43px;
+    right: 2px;
+    background-repeat: no-repeat;
+  }
 }

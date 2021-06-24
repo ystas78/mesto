@@ -8,7 +8,7 @@
   </head>
   <body class="page">
     <header class="header"> 
-      <img class="header__logo" src="./images/Logo-Vitebsk-svg.svg" alt="Логотип">
+      <img class="header__logo" src="./images/logo-vitebsk-2.svg" alt="Логотип">
     </header>
     <main class="content"> 
       <section class="profile">
@@ -22,67 +22,67 @@
             <p class="profile__job">Вечный студент</p>
           </div>  
         </div>
-        <button class="profile__edd-button"></button>  
+        <button class="profile__edd-button" type="button"></button>  
       </section>
       <section class="elements">
-        <div class="element">
-          <img class="element__image" src="./images/Витебск.JPG" alt="Фото1">
+        <article class="element">
+          <img class="element__image" src="./images/vitebsk-1.JPG" alt="Вид на Успенский собор города Витебска">
           <div class="element__place">
             <h2 class="element__place-title">Успенский собор</h2>
-            <button class="element__place-button"></button>
+            <button class="element__place-button" type="button"></button>
           </div>
-        </div>
-        <div class="element">
-          <img class="element__image" src="./images/Витебск 2.JPG" alt="Фото2">
+        </article>
+        <article class="element">
+          <img class="element__image" src="./images/vitebsk-2.JPG" alt="Вид на реку Западная Двина в городе Витебске">
           <div class="element__place">
             <h2 class="element__place-title">р.Западная Двина</h2>
-            <button class="element__place-button"></button>
+            <button class="element__place-button" type="button"></button>
           </div>
-        </div>
-        <div class="element">
-          <img class="element__image" src="./images/Дом-музей Марка Шагала.JPG" alt="Фото3">
+        </article>
+        <article class="element">
+          <img class="element__image" src="./images/vitebsk-3.JPG" alt="Фото Дома-музей Марка Шагала">
           <div class="element__place">
             <h2 class="element__place-title">Дом-музей Марка Шагал</h2>
-            <button class="element__place-button"></button>
+            <button class="element__place-button" type="button"></button>
           </div>
-        </div>
-        <div class="element">
-          <img class="element__image" src="./images/Витебск 4.JPG" alt="Фото4">
+        </article>
+        <article class="element">
+          <img class="element__image" src="./images/vitebsk-4.JPG" alt="Фото улицы Суворова в городе Витебске">
           <div class="element__place">
             <h2 class="element__place-title">ул.Суворова</h2>
-            <button class="element__place-button"></button>
+            <button class="element__place-button" type="button"></button>
           </div>
-        </div>
-        <div class="element">
-          <img class="element__image" src="./images/Витебск 5.JPG" alt="Фото5">
+        </article>
+        <article class="element">
+          <img class="element__image" src="./images/vitebsk-5.JPG" alt="Фото Площади Победы в городе Витебске">
           <div class="element__place">
             <h2 class="element__place-title">площадь Победы</h2>
-            <button class="element__place-button"></button>
+            <button class="element__place-button" type="button"></button>
           </div>
-        </div>
-        <div class="element">
-          <img class="element__image" src="./images/Костёл Святой Варвары.JPG" alt="Фото6">
+        </article>
+        <article class="element">
+          <img class="element__image" src="./images/vitebsk-6.JPG" alt="Фото Костёла Святой Варвары в городе Витебске">
           <div class="element__place">
             <h2 class="element__place-title">Костёл Святой Варвары</h2>
-            <button class="element__place-button"></button>
+            <button class="element__place-button" type="button"></button>
           </div>
-        </div>
+        </article>
       </section>
     </main>
     <footer class="footer">
       <p class="footer__copyright">&copy; 2021 Mesto Vitebsk</p>
     </footer>
-    <section class="popup"> <!-- тут начинается popup для редактирования данных профиля-->
+    <div class="popup"> <!-- тут начинается popup для редактирования данных профиля-->
       <div class="popup__container">
         <button class="popup__close" type="button"></button>
         <h2 class="popup__title">Редактировать профиль</h2> 
         <form class="form" name="input-form"> 
-          <input class="form__input form__input_name" type="text" name="name" id="name" placeholder="Имя"> 
-          <input class="form__input form__input_job" type="text" name="job" id="job" placeholder="О себе"> 
+          <input class="form__input form__input_type_name" type="text" name="name" placeholder="Имя">
+          <input class="form__input form__input_type_job" type="text" name="job" placeholder="О себе"> 
           <button class="form__submit" type="submit">Сохранить</button> 
         </form> 
       </div>
-    </section>
+    </div>
     <script src="./scripts/index.js"></script> <!-- подключаем JS докомент - всегда перед закрывающим тегом БОДИ-->
   </body>
 </html>

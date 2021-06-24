@@ -1,5 +1,5 @@
 .profile__edd-button {
-  background: transparent url("../../../images/AddButton.svg");
+  background: transparent url("../../../images/profile__edd-button-1280.svg");
   align-self: center;
   justify-content: center;
   align-items: center;
@@ -12,14 +12,14 @@
 }
 
 .profile__edd-button:hover {
-	opacity: 0.5;
+	opacity: 0.6;
   cursor: pointer;
 }
 
 @media (max-width: 560px) {
   .profile__edd-button {
     margin-top: 32px;
-    background: transparent url("../../../images/AddButton-320.svg");
+    background: transparent url("../../../images/profile__edd-button-320.svg");
     background-position: center;
     width: 282px;
     }
