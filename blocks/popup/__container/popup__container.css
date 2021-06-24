@@ -14,7 +14,7 @@
 @media (max-width: 560px) {
   .popup__container {
     width: 282px;
-    align-items: center;   
+    align-items: center;
     margin: 300px auto 330px;
   }
 }
