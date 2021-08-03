@@ -1,4 +1,4 @@
-.element__place-button {
+.element__place_like-button {
   background: url(../../../images/element__place-button.svg);
   width: 22px;
   height: 19px;
@@ -9,7 +9,7 @@
   margin-right: 20px;
 }
 
-.element__place-button:hover {
+.element__place_like-button:hover {
   opacity: 0.5;
   cursor: pointer;
 }

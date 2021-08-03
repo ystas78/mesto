@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Место</title>
+    <title>Место-Витебск</title>
     <link rel="stylesheet" href="./pages/index.css">
   </head>
   <body class="page">
@@ -24,57 +24,13 @@
         </div>
         <button class="profile__add-button" type="button"></button>  
       </section>
-      <section class="elements">
-        <article class="element">
-          <img class="element__image" src="./images/vitebsk-1.JPG" alt="Вид на Успенский собор города Витебска">
-          <div class="element__place">
-            <h2 class="element__place-title">Успенский собор</h2>
-            <button class="element__place-button" type="button"></button>
-          </div>
-        </article>
-        <article class="element">
-          <img class="element__image" src="./images/vitebsk-2.JPG" alt="Вид на реку Западная Двина в городе Витебске">
-          <div class="element__place">
-            <h2 class="element__place-title">р.Западная Двина</h2>
-            <button class="element__place-button" type="button"></button>
-          </div>
-        </article>
-        <article class="element">
-          <img class="element__image" src="./images/vitebsk-3.JPG" alt="Фото Дома-музей Марка Шагала">
-          <div class="element__place">
-            <h2 class="element__place-title">Дом-музей Марка Шагал</h2>
-            <button class="element__place-button" type="button"></button>
-          </div>
-        </article>
-        <article class="element">
-          <img class="element__image" src="./images/vitebsk-4.JPG" alt="Фото улицы Суворова в городе Витебске">
-          <div class="element__place">
-            <h2 class="element__place-title">ул.Суворова</h2>
-            <button class="element__place-button" type="button"></button>
-          </div>
-        </article>
-        <article class="element">
-          <img class="element__image" src="./images/vitebsk-5.JPG" alt="Фото Площади Победы в городе Витебске">
-          <div class="element__place">
-            <h2 class="element__place-title">площадь Победы</h2>
-            <button class="element__place-button" type="button"></button>
-          </div>
-        </article>
-        <article class="element">
-          <img class="element__image" src="./images/vitebsk-6.JPG" alt="Фото Костёла Святой Варвары в городе Витебске">
-          <div class="element__place">
-            <h2 class="element__place-title">Костёл Святой Варвары</h2>
-            <button class="element__place-button" type="button"></button>
-          </div>
-        </article>
+      <section class="elements"> <!--тут внутри темлейт тег-->
       </section>
     </main>
     <footer class="footer">
       <p class="footer__copyright">&copy; 2021 Mesto Vitebsk</p>
     </footer>
-
-    
-    <div class="popup"> <!-- тут начинается popup для редактирования данных профиля-->
+    <div class="popup popup_profile"><!-- popup для редактирования данных профиля-->
       <div class="popup__container">
         <button class="popup__close" type="button"></button>
         <h2 class="popup__title">Редактировать профиль</h2> 
@@ -85,8 +41,34 @@
         </form> 
       </div>
     </div>
-    
-
-    <script src="./scripts/index.js"></script> <!-- подключаем JS докомент - всегда перед закрывающим тегом БОДИ-->
+    <div class="popup popup_elements"><!-- попап редактирования фото и их названий -->
+      <div class="popup__container">
+        <button class="popup__close" type="button"></button>
+        <h2 class="popup__title">Новое место</h2> 
+        <form class="form" name="input-form"> 
+          <input class="form__input form__input_type_name-foto" type="text" name="name-foto" placeholder="Название">
+          <input class="form__input form__input_type_link-foto" type="text" name="link-foto" placeholder="Сссылка на картинку">
+          <button class="form__submit" type="submit">Сохранить</button> 
+        </form> 
+      </div>
+    </div>
+    <div class="popup popup_open-foto"><!-- в котором открывается просмотр фото -->
+			<div class="popup__container-foto"> 
+			  <button class="popup__close_foto-button" type="button"></button>
+			  <img class="popup__foto" alt="#" src="#">
+			  <h2 class="popup__title-foto"></h2>
+			</div>
+		</div>
+    <template class="template"><!-- код в теге <template> без JS не отображается на странице - попадает в <section class="elements"> -->
+      <article class="element">
+        <img class="element__image" src="#" alt="#">
+        <button class="element__place_delite-button" type="button"></button>
+        <div class="element__place">
+          <h2 class="element__place-title"></h2>
+          <button class="element__place_like-button" type="button"></button>
+        </div>
+      </article>
+    </template><!-- конец кода в теге <template> -->
+    <script src="./scripts/index.js"></script> <!-- подключаем JS документ всегда перед закрывающим тегом БОДИ-->
   </body>
 </html>
