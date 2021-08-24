@@ -10,6 +10,7 @@
   outline: none;
   cursor: pointer;
 }
+
 .popup__close_foto-button:hover {
   opacity: 0.6;
 }

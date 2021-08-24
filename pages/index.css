@@ -23,6 +23,9 @@
 @import url(../blocks/element/__place-title/element__place-title.css);
 @import url(../blocks/element/__place_like-button/element__place_like-button.css);
 @import url(../blocks/element/__place_delite-button/element__place_delite-button.css);
+
+@import url(../blocks/element/__place_like-button/_active/element__place_like-button_active.css);
+
 /* Ниже - подключение файлов блока FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
@@ -42,3 +45,4 @@
 @import url(../blocks/popup/__close_foto-button/popup__close_foto-button.css);
 @import url(../blocks/popup/__foto/popup__foto.css);
 @import url(../blocks/popup/__title-foto/popup__title-foto.css);
+
