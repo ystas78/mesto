@@ -48,7 +48,7 @@ const elementBoxTemplate = document.querySelector('.elements');//то куда �
 const elementLikeActiv = document.querySelector('.element__place_like-button_active');//элемент - активный лайк фото - черный
 const popupOpenFoto = document.querySelector('.popup_open-foto');//тут и ниже элементы попапа открытой для просмотра фотографии
 const popupContainerFoto = popupOpenFoto.querySelector('.popup__container-foto'); 
-const popupCloseButtonFoto = popupOpenFoto.querySelector('.popup__close_foto-button'); 
+const popupCloseButtonFoto = popupOpenFoto.querySelector('.popup__close-button'); 
 const	popupFoto = popupOpenFoto.querySelector('.popup__foto');
 const	popupTitleFoto = popupOpenFoto.querySelector ('.popup__title-foto');
 //--------------------------------------------------------------------------------------------------------------------------------------

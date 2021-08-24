@@ -1,4 +1,4 @@
-.popup__close_foto-button {
+.popup__close-button {
   background: url(../../../images/close-Icon-pupap-1280.svg);
   background-repeat: no-repeat;
   width: 32px;
@@ -10,13 +10,13 @@
   outline: none;
 }
 
-.popup__close_foto-button:hover {
+.popup__close-button:hover {
   opacity: 0.6;
   cursor: pointer;
 }
 
 @media (max-width: 560px) {
-  .popup__close_foto-button {
+  .popup__close-button {
   background: url(../../../images/close-Icon-pupap-320.svg);
   width: 20px;
   height: 20px;
